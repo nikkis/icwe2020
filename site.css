@@ -2410,6 +2410,18 @@ span.header-link-text {
     left: 0.2em;
 }
 
+.icwe-video {
+    width: 100%;
+    
+}
+
+@media screen and (min-width:993px) {
+    .icwe-video {
+        width: 900px;
+        height: 507px;
+    }   
+}
+
 @media screen and (min-width:993px) {
     .header-link a {
         position: relative;
