@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<title>ICWE 2020</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="assets/imgs/icwe2017_logo.png">
+
+
+<meta property="og:image" content="http://liquidsoftware.org/assets/imgs/helsinki2.jpg" />
+<meta property="og:image:secure_url" content="http://liquidsoftware.org/assets/imgs/helsinki2.jpg" />
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="442" />
+
+<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif
+  }
+
+  body,
+  html {
+    height: 100%;
+    line-height: 1.8;
+  }
+
+  /* Full height image header */
+
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("assets/imgs/helsinki4.jpg");
+    min-height: 100%;
+  }
+
+  .w3-navbar li a {
+    padding: 16px;
+    float: left;
+  }
+</style>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <ul class="w3-navbar w3-white w3-card-2" id="myNavbar">
+      <li>
+        <a href="#home" class="w3-wide">ICWE 2020</a>
+      </li>
+      <!-- Right-sided navbar links -->
+      <li class="w3-right w3-hide-small">
+        <a href="#cfp"><i class="fa fa-lightbulb-o"></i> CALL FOR PAPAERS</a>
+        <a href="#organization"><i class="fa fa-user"></i> COMMITEES</a>
+        <a href="#dates"><i class="fa fa-calendar"></i> DATES</a>
+        <a href="#program"><i class="fa fa-calendar-check-o"></i> PROGRAM</a>
+        <a href="#proceedings"><i class="fa fa-book"></i> PROCEEDINGS</a>
+        <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+      </li>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+      <li>
+        <a href="javascript:void(0)" class="w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars w3-padding-right w3-padding-left"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Sidenav on small screens when clicking the menu icon -->
+  <nav class="w3-sidenav w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
+    id="mySidenav">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-large w3-padding-16">Close ×</a>
+    <a href="#cfp" onclick="w3_close()">CALL FOR PAPAERS</a>
+    <a href="#organization" onclick="w3_close()">COMMITEES</a>
+    <a href="#dates" onclick="w3_close()">DATES</a>
+    <a href="#program" onclick="w3_close()">PROGRAM</a>
+    <a href="#proceedings" onclick="w3_close()">PROCEEDINGS</a>
+    <a href="#contact" onclick="w3_close()">CONTACT</a>
+  </nav>
+
+  <!-- Header with full-height image -->
+  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-padding-xxlarge w3-text-white">
+      <span class="w3-jumbo w3-hide-small">20TH INTERNATIONAL CONFERENCE ON WEB ENGINEERING</span>
+      <br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">20TH INTERNATIONAL CONFERENCE ON WEB ENGINEERING</span>
+      <br>
+      <span class="w3-large">9th – 12th JUNE, 2020 / Helsinki FINLAND</span>
+
+
+      <!--<p><a href="#dates"
+          class="w3-btn w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">PAPER DEADLINE
+          31 MARCH</a></p>-->
+    </div>
+    <div class="w3-display-bottomleft w3-padding-xxlarge w3-text-grey w3-large">
+      <a target="_blank" href="https://www.facebook.com/events/390290684637589/" class="w3-hover-text-white"><i
+          class="fa fa-facebook-official"></i></a>
+      <!--            <a href="#" class="w3-hover-text-white"><i class="fa fa-flickr"></i></a>-->
+      <!--            <a href="#" class="w3-hover-text-white"><i class="fa fa-instagram"></i></a>-->
+      <a target="_blank" href="https://twitter.com/liquid2017" class="w3-hover-text-white"><i
+          class="fa fa-twitter"></i></a>
+      <!--            <a href="#" class="w3-hover-text-white"><i class="fa fa-linkedin"></i></a>-->
+    </div>
+
+    <div class="w3-display-bottomright w3-padding-xxlarge w3-text-grey w3-large">
+      <span class="header-link">
+        <a target="_blank" href="http://icwe2017.webengineering.org/" class="w3-hover-text-white"><img
+            src="assets/imgs/icwe2017.png" /><span class="header-link-text">ICWE 2017</span></a>
+      </span>
+    </div>
+
+
+  </header>
+
+  <h1 style="display:none;">ICWE 2020</h1>
+
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-128" id="about">
+
+
+    <div class="w3-content">
+      <h3 class="w3-center">ABOUT THE CONFERENCE</h3>
+      <div class="w3-center">
+
+        <!--<i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+                <p class="w3-large">Responsive</p>-->
+        
+                <iframe width="900" height="507" src="https://www.youtube-nocookie.com/embed/dHqz4hV-sws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+                <p class="w3-justify">In the future, we will use several Web-enabled devices both sequentially and
+          simultaneously. Thus, the users should be able to access applications and resources form multiple devices and
+          in multiple contexts. This means that the applications and data then flow seamlessly from one device or screen
+          to another. Similarly, the ever-increasing set of interconnected devices interact and collaborate, fulfilling
+          the users’ needs. This coming era raises expectations for interoperability and adaptability. It also calls for
+          new architectures and design principles. The open and modern Web technologies are in the core of this
+          development, since they are vendor neutral and work on every device. Our conference will discuss various
+          aspects of the implementation the above vision in the context of Web technologies, architectures and
+          applications. Last year the conference was among the most popular ones, and now this theme is even more
+          timely. The expected topics include use cases, example applications, frameworks for multi-device applications,
+          new programming paradigms, data synchronization techniques, adaptation techniques and novel UI concepts. The
+          conference invites full research papers and technical demos with short paper.</p>
+      </div>
+    </div>
+
+    <div class="w3-content">
+      <div class="w3-center">
+        <img class="w3-center" src="assets/imgs/icwe2017.png" />
+        <h3 class="w3-center">Conference of the 17th International Conference on Web Engineering (ICWE 2017)</h3>
+        <div class="w3-center">
+          <!--<i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+                <p class="w3-large">Responsive</p>-->
+          <p class="w3-center">The second most popular conference of ICWE 2016</p>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- CfP Section -->
+  <div class="w3-container w3-light-grey w3-padding-64" id="cfp">
+    <div class="w3-row-padding">
+      <div class="w3-col m10">
+        <h3>Call for Papers</h3>
+        <p>The era of standalone computing devices is coming to an end. Device shipment trends indicate that the number
+          of Web-enabled devices other than PCs and smartphones will grow rapidly. In the future, people become
+          surrounded by and will commonly use various types of internet-connected devices in their daily lives. Unlike
+          today, no single device will dominate the user’s life.</p>
+        <p>From technical perspective, this means that the world of computing is rapidly evolving from traditional
+          client-server architectures to multi-device architectures in which people use various types of Web-enabled
+          client devices, and data is stored simultaneously in numerous devices and cloud-based services. This new era
+          will dramatically raise the expectations for device interoperability and interactions between them, implying
+          significant changes for software architecture as well. Most importantly, a multi-device software architecture
+          should minimize the burden that the users currently have in keeping devices in sync. Ideally, when the user
+          moves from one device to another, the users should be able to seamlessly continue doing what they were doing
+          previously, e.g., continue playing the same game, watching the same movie or listening to the same song on the
+          other device, without having to worry about device management. </p>
+        <p>By ICWE 2020, we refer to an approach in which applications and data can flow seamlessly from one
+          device or screen to another, allowing the users to roam freely across all the computing devices that they
+          have. The users of ICWE 2020 do not need to worry about device data copying, manual synchronization of
+          device settings, application installation, or other traditional device management tasks. Rather, things should
+          just work with minimal hassles.</p>
+        <p>Companies such as Apple and Google are already paving the way towards liquid multi-device software
+          architectures for their native software platforms. For instance, device synchronization across devices and
+          computers within the Apple ecosystem is already quite straightforward. Likewise, Google and Microsoft
+          ecosystems have similar capabilities, but only within those ecosystems.</p>
+        <p>We envision that HTML5 and Web technologies will be used as the basis for a broader, industry-wide
+          multi-device software architecture, enabling seamless usage of applications not only with devices from a
+          certain manufacturer or native ecosystem, but more broadly across the entire industry. HTML5 and Web
+          technologies could serve as the common denominator and technology enabler that would bridge the gaps between
+          currently separate device and computing ecosystems.</p>
+        <p>In this conference, we will discuss approaches and technologies for ICWE 2020. We are especially
+          seeking contributions that describe ICWE 2020 solutions and technologies in the context of the Web and
+          the Web of Things, supporting industry-wide usage of liquid applications independently of the currently
+          prevalent native software ecosystems.</p>
+        <h4>Topics of interest to the conference include (but are not limited to):</h4>
+        <p>
+          <ul class="w3-ul w3-hoverable">
+            <li>Use cases and example applications for liquid software and services (especially leveraging HTML5 and Web
+              technologies)</li>
+            <li>Software architectures for multi-device applications, including aspects of partitioning applications
+              between the client and the server</li>
+            <li>Liquid Web of Things: Liquid Software for headless or constrained devices</li>
+            <li>Software frameworks that enable multi-device and liquid applications and services within the context of
+              the Web, the Web of Things, and the Internet of Things</li>
+            <li>Programming models for multi-device and liquid applications</li>
+            <li>Novel application concepts building on multiple device ownership and usage</li>
+            <li>Novel UI paradigms supporting multiple device ownership and liquid applications</li>
+          </ul>
+        </p>
+        <p><a href="linktopdf" class="w3-btn"><i class="fa fa-file-pdf-o"></i> Download PDF</a></p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Dates Section -->
+  <div class="w3-container w3-dark-grey w3-padding-8" id="dates">
+    <h3 class="w3-center">IMPORTANT DATES</h3>
+    <!--<p class="w3-center w3-large">Mark these to your calendar!</p>-->
+
+    <div class="w3-row-padding" style="margin-top:4px">
+      <ul class="w3-ul w3-hoverable">
+
+        <li>Technical papers (abstract): Sun Jan 19 2020</li>
+        <li>Technical papers (full): Sun Jan 25 2020</li>
+        <li>Notifications: Fri March 6 2020</li>
+        <li>Camera ready: March 19 2020</li>
+
+
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Organization Section -->
+  <div class="w3-container w3-padding-128" id="organization">
+    <h3 class="w3-center">ORGANIZATION COMMITTEE</h3>
+    <p class="w3-center w3-large">Organizing Committee</p>
+    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-card-2">
+          <img src="assets/imgs/niko.jpg" alt="Niko Mäkitalo" style="width:100%">
+          <div class="w3-container">
+            <h3>Niko Mäkitalo</h3>
+            <p class="w3-opacity">Organizer</p>
+            <p class="info-card-text">Dr. Niko Mäkitalo works as postdoctoral researcher in Tampere University of
+              Technology, Finland. His main interests are Web technologies in the context of multi-device and IoT
+              programming. Recently his research focus has been on making cooperation with the IoT more human-centric
+              and user friendly with an interaction-oriented programming model. He is passionate implementing what he
+              has designed in practice. For more information see: <a target="_blank"
+                href="https://nkm.io">https://nkm.io</a></p>
+            <p>
+              <a href="mailto:niko.makitalo@tut.fi" class="w3-btn-block"><i class="fa fa-envelope"></i>
+                niko.makitalo@tut.fi</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-card-2">
+          <img src="assets/imgs/kari.jpg" alt="Kari Systä" style="width:100%">
+          <div class="w3-container">
+            <h3>Kari Systä</h3>
+            <p class="w3-opacity">Organizer</p>
+            <p class="info-card-text">Prof. Kari Systä has worked in Tampere University of Technology since December
+              2011. Before that he hold various R&D and management positions in Nokia Corporation. His main research
+              interests are web as an application platform, liquid software, IoT systems and data-driven software
+              engineering. For more information see: <a target="_blank"
+                href="http://www.cs.tut.fi/~systa">http://www.cs.tut.fi/~systa</a></p>
+            <p>
+              <a href="mailto:kari.systa@tut.fi" class="w3-btn-block"><i class="fa fa-envelope"></i>
+                kari.systa@tut.fi</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-card-2">
+          <img src="assets/imgs/cesare.jpg" alt="Cesare Pautasso" style="width:100%">
+          <div class="w3-container">
+            <h3>Cesare Pautasso</h3>
+            <p class="w3-opacity">Organizer</p>
+            <p class="info-card-text">Dr. Cesare Pautasso is associate professor at the USI Faculty of Informatics in
+              Lugano, Switzerland. His research interests cover Web engineering, Liquid Software Architecture and
+              Business Process Management. He was the general chair of the 16th International Conference on Web
+              Engineering (ICWE2016) and is the co-founder of the WS-REST conference series (held both at WWW and ICWE).
+              For more information see <a target="_blank" href="http://www.pautasso.info">http://www.pautasso.info</a>
+            </p>
+            <p>
+              <a href="mailto:cesare.pautasso@usi.ch" class="w3-btn-block"><i class="fa fa-envelope"></i>
+                cesare.pautasso@usi.ch</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-card-2">
+          <img src="assets/imgs/antero.jpg" alt="Antero Taivalsaari" style="width:100%">
+          <div class="w3-container">
+            <h3>Antero Taivalsaari</h3>
+            <p class="w3-opacity">Organizer</p>
+            <p class="info-card-text">Dr. Antero Taivalsaari is a Fellow at Nokia Technologies, and an Adjunct Professor
+              at Tampere University of Technology in Finland. Antero's current academic research interests include the
+              Programmable World and the Internet of Things especially from software engineering perspective, as well as
+              liquid multi-device software. For more information see: <a target="_blank"
+                href="http://www.cs.tut.fi/~taivalsa/">http://www.cs.tut.fi/~taivalsa/</a></p>
+            <p>
+              <a href="mailto:antero.taivalsaari@tut.fi" class="w3-btn-block"><i class="fa fa-envelope"></i>
+                antero.taivalsaari@tut.fi</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-card-2">
+          <img src="assets/imgs/tommi.jpg" alt="Tommi Mikkonen" style="width:100%">
+          <div class="w3-container">
+            <h3>Tommi Mikkonen</h3>
+            <p class="w3-opacity">Organizer</p>
+            <!--<p class="info-card-text">Dr. Tommi Mikkonen is professor at Tampere University of Technology, Finland. For more information see: <a target="_blank" href="http://www.cs.tut.fi/~tjm/">http://www.cs.tut.fi/~tjm/</a></p>-->
+            <p class="info-card-text">Prof. Mikkonen is a well-known expert in the area of software engineering and web
+              programming. He has contributed to numerous research projects funded via academic and industrial channels.
+              During Fall 2016 he has visited Mozilla, working in the fields of Web and Internet of Things. Author of
+              over 250 articles, prof. Mikkonen is a frequent visitor of conferences, where he has also provided
+              numerous keynotes. For more information see: <a target="_blank"
+                href="http://www.cs.tut.fi/~tjm/">http://www.cs.tut.fi/~tjm/</a></p>
+            <p>
+              <a href="mailto:tommi.mikkonen@cs.helsinki.fi" class="w3-btn-block"><i class="fa fa-envelope"></i>
+                tommi.mikkonen@cs.helsinki.fi</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="w3-center w3-large pc-title">Program Committee</p>
+    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+      <div class="w3-center">
+        <p class="w3-large">To Be Announced</p>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Program Section -->
+  <div class="w3-container w3-light-grey w3-padding-128" id="program">
+    <div class="w3-content">
+      <h3 class="w3-center">PROGRAM</h3>
+      <div class="w3-center">
+        <p class="w3-large">To Be Announced</p>
+
+        <div class="w3-row">
+          <p class="w3-large">Venue:</p>
+        </div>
+
+        <div class="w3-row">
+          <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
+            <a target="_pank" href="https://drive.google.com/open?id=1XGWWyJMB_2_oqshHvNOG2TeF5hIGi8L1&usp=sharing">Unioninkatu 40, 00170 Helsinki</a>
+          </p>
+        </div>
+
+        <div class="w3-row">
+          <div class="w3-rest">
+            <!-- Add Google Maps -->
+            <iframe src="https://www.google.com/maps/d/embed?mid=1XGWWyJMB_2_oqshHvNOG2TeF5hIGi8L1" style="width:100%;height:510px;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proceedings Section -->
+  <div class="w3-container w3-padding-128" id="proceedings">
+
+    <div class="w3-content">
+      <h3 class="w3-center">PROCEEDINGS</h3>
+      <div class="w3-center">
+        <p class="w3-justify"><a target="_blank" href="http://link.springer.com/book/10.1007%2F978-3-319-46963-8">On
+            2016 the proceedings</a> were published by Springer, and they are DBLP indexed: <a target="_blank"
+            href="http://dblp.uni-trier.de/db/conf/icwe/icwe2016w.html">http://dblp.uni-trier.de/db/conf/icwe/icwe2016w.html</a>.
+          <a target="_blank" href="http://icwe2017.webengineering.org/#workshop">
+            <br /> The plan is to follow the same convention this year</a>.</p>
+      </div>
+    </div>
+
+    <div class="w3-content">
+      <div class="w3-center">
+        <img class="w3-center w3-image" src="assets/imgs/springer_lncs_logo.jpg" />
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Program Section -->
+  <div class="w3-container w3-light-grey w3-padding-128" id="program">
+    <div class="w3-content">
+      <h3 class="w3-center">TBA</h3>
+      <div class="w3-center">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Partners Section -->
+  <div class="w3-container w3-padding-128" id="partners">
+
+    <div class="w3-content">
+      <h3 class="w3-center">PARTNERS</h3>
+    </div>
+
+    <div class="w3-content">
+      <div class="w3-col m4">
+        <span class="partner-image"><img class="w3-center w3-image" src="assets/imgs/icwe.png" /></span>
+      </div>
+      <div class="w3-col m4">
+        <span class="partner-image"><img class="w3-center w3-image" src="assets/imgs/springer.png" /></span>
+      </div>
+      <div class="w3-col m4">
+        <span class="partner-image"><img class="w3-center w3-image" src="assets/imgs/tut.png" /></span>
+      </div>
+      <div class="w3-col m4">
+        <span class="partner-image"><img class="w3-center w3-image" src="assets/imgs/uh.jpg" /></span>
+      </div>
+      <div class="w3-col m4">
+        <span class="partner-image"><img class="w3-center w3-image" src="assets/imgs/usi.png" /></span>
+      </div>
+      <div class="w3-col m4">
+        <span class="partner-image"><img class="w3-center w3-image" src="assets/imgs/nokia.png" /></span>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-light-grey w3-padding-128" id="contact">
+    <h3 class="w3-center">CONTACT</h3>
+    <p class="w3-center w3-large">If you have any questions in mind, please don't hesitate to contact us!</p>
+    <p class="w3-center w3-large"><a
+        href="mailto:workshop2017@liquidsoftware.org?subject=[ICWE2017] Liquid Multi-Device Software Workshop&body=Dear Organizers,%0D%0A%0D%0AI'm contacting you ..."><i
+          class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>Email: workshop2017@liquidsoftware.org</a></p>
+    <p class="w3-center w3-large"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i><a target="_pank"
+        href="https://www.google.com/maps/d/embed?mid=1AbOlYAvl1TZHHOFQhZ39vcC1VsI">Workshop Venue: Via Vito Volterra,
+        60, 00146 Rome, Italy</a></p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-btn w3-padding w3-light-grey w3-hover-grey"><i
+        class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <a target="_blank" href="https://www.facebook.com/events/390290684637589/"><i
+          class="fa fa-facebook-official w3-hover-text-indigo"></i></a>
+      <!--<i class="fa fa-flickr w3-hover-text-red"></i>-->
+      <!--<i class="fa fa-instagram w3-hover-text-purple"></i>-->
+      <a target="_blank" href="https://twitter.com/liquid2017"><i
+          class="fa fa-twitter w3-hover-text-light-blue"></i></a>
+      <!--<i class="fa fa-linkedin w3-hover-text-indigo"></i>-->
+    </div>
+  </footer>
+
+  <!-- Add Google Maps -->
+
+  <script>
+    function initialize() {
+      var myCenter = new google.maps.LatLng(41.85532, 12.46961);
+
+      var mapProp = {
+        center: myCenter,
+        zoom: 16,
+        scrollwheel: false,
+        draggable: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+
+      var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+      var marker = new google.maps.Marker({
+        position: myCenter,
+      });
+
+      marker.setMap(map);
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+
+
+    // Toggle between showing and hiding the sidenav when clicking the menu icon
+    var mySidenav = document.getElementById("mySidenav");
+
+    function w3_open() {
+      if (mySidenav.style.display === 'block') {
+        mySidenav.style.display = 'none';
+      } else {
+        mySidenav.style.display = 'block';
+      }
+    }
+
+    // Close the sidenav with the close button
+    function w3_close() {
+      mySidenav.style.display = "none";
+    }
+  </script>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADc_5_PXaxO2iAjnEmo5CZ1xxGG0_IkSY&callback=initialize"></script>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-90428743-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+
+</html>
