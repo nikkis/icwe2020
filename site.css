@@ -2398,28 +2398,33 @@ input[type=radio].w3-radio:disabled+.w3-validate {
     height: 330px;
 }
 
-.header-link a {
-    font-size: 1.2em;
-    text-decoration: none;
-    font-weight: bolder;
-}
 
-span.header-link-text {
-    position: relative;
-    top: -1em;
-    left: 0.2em;
-}
 
 .icwe-video {
-    width: 100%;
-    
+    width: 100%;   
 }
-
 @media screen and (min-width:993px) {
     .icwe-video {
         width: 900px;
         height: 507px;
     }   
+}
+
+
+
+
+.header-link img {
+    width: 50px;
+}
+.header-link a {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+span.header-link-text {
+    position: relative;
+    top: -1em;
+    left: 0.2em;
 }
 
 @media screen and (min-width:993px) {
@@ -2454,22 +2459,3 @@ span.pc-member-affiliation {
 }
 
 
-/*
-.header-link {
-    position: relative;
-    top: 4em;
-}
-
-span.header-link-text {
-    position: relative;
-    top: -1em;
-    left: 0.2em;
-}
-
-@media screen and (min-width:993px) {
-    .header-link a {
-        position: relative;
-        top: -1em;
-        right: 1em;
-    }
-}*/
