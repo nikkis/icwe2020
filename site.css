@@ -2417,6 +2417,7 @@ input[type=radio].w3-radio:disabled+.w3-validate {
     width: 50px;
 }
 .header-link a {
+    color: white;
     font-size: 1.2em;
     text-decoration: none;
     font-weight: bolder;
