@@ -2459,4 +2459,11 @@ span.pc-member-affiliation {
     font-style: italic;
 }
 
+ ul.icwe-topics { 
+    border: none; 
+    list-style-type: space-counter;
+}
 
+.icwe-topics li{ 
+    list-style-type: circle !important;
+}
